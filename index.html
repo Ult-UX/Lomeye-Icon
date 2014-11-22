@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>Lomeye Icon | 最适合中文开发环境的纯CSS免费图标</title> 
+  <meta name="keywords" content="CDN CSS图标 免费图标 icon iconmoon" /> 
+  <meta name="description" content="最适合中文开发环境的、基于CDN的纯CSS免费图标，全面兼容IE6+、Chrome、Safari、Firefox等浏览器，不需要下载安装即可在任意页面随意调用。" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <link rel="shortcut icon" href="img/favicon.png" /> 
+  <!-- Bootstrap --> 
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /> 
+  <!-- Lomeye Icon 在本地的文件 --> 
+  <link rel="stylesheet" href="lomeye-icon/lomeye-icon.css" /> 
+  <!-- Lomeye Icon 在CDN上的文件 --> 
+  <!--<link rel="stylesheet" href="http://lomeye-icon.qiniudn.com/lomeye-icon-cdn.css" />--> 
+  <!-- Lomeye Icon 兼容IE6-7 --> 
+  <!--[if lt IE 8]>
+	  <link rel="stylesheet" href="lomeye-icon/ie7/ie7.css /">
+	  <script src="lomeye-icon/ie7/ie7.js"></script>
+    <![endif]--> 
+  <!-- 本页所用样式 --> 
+  <link rel="stylesheet" href="css/style.css" /> 
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]--> 
+ </head> 
+ <body data-spy="scroll" data-target=".navbar-collapse" data-offset="200"> 
+  <!-- Fixed navbar --> 
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
+   <div class="container"> 
+    <div class="navbar-header"> 
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     <a class="navbar-brand" href="#header" title="返回页面顶部"><span class="brand"><strong>L</strong></span><span class="ico-lomeye"></span><span class="brand"><strong>MEYE</strong></span></a> 
+    </div> 
+    <div class="navbar-collapse collapse"> 
+     <ul class="nav navbar-nav"> 
+      <li><a href="#setup">安装调试</a></li> 
+      <li><a href="#SNS">SNS Icon</a></li> 
+      <li><a href="#Extend">Extend Icon</a></li> 
+      <li><a href="#IcoMoon">IcoMoon Icon</a></li> 
+      <li><a href="#thanks">感谢</a></li> 
+     </ul> 
+     <ul class="nav navbar-nav navbar-right"> 
+      <li><a href="http://lomeye.net/archives/category/lomeye-icon" target="_blank">更新日志</a></li> 
+     </ul> 
+    </div> 
+    <!--/.nav-collapse --> 
+   </div> 
+  </div> 
+  <div id="header" class="jumbotron header"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-sm-9"> 
+      <h1><strong>Lomeye Icon</strong></h1> 
+      <p>Version 1.01 ,508+ CSS Icons</p> 
+      <p>最适合中文开发环境的、基于CDN的纯CSS免费图标，全面兼容IE6+、Chrome、Safari、Firefox等浏览器，不需要下载安装即可在任意页面随意调用。</p> 
+      <ul class="list-unstyled list-inline"> 
+       <li><a href="http://lomeye-icon.qiniudn.com/lomeye-icon.zip" class="btn btn-success btn-lg"><span class="ico-download"></span> 下载zip压缩档</a></li> 
+       <li><a href="http://lomeye-icon.qiniudn.com/lomeyeicon_wp.zip" class="btn btn-success btn-lg" title="新做的，还没来得及整理，功能很简单，但是很实用"><span class="ico-download"></span> 下载WordPress插件</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-sm-3 text-center"> 
+      <img src="http://api.qrserver.com/v1/create-qr-code/?color=222222&amp;bgcolor=EEEEEE&amp;data=http://icon.lomeye.net&amp;qzone=0&amp;margin=10&amp;size=180x180&amp;ecc=q" class="img-responsive center-block qr-code" alt="qr" /> 
+      <p class="small">扫一扫，分享给小伙伴儿！</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class=" doc"> 
+    <h1><strong>Step 1 : 安装</strong></h1> 
+    <hr /> 
+    <div id="setup"> 
+     <h3>方式 1 CDN调用</h3> 
+     <p> 在<code>&lt;head&gt;</code>中引用以下代码：<br /> </p> 
+     <p><pre><code>
+            &lt;!-- Lomeye Icon 核心 CSS 文件 --&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;http://lomeye-icon.qiniudn.com/lomeye-icon-cdn.css&quot; /&gt;
+            &lt;!-- Lomeye Icon 兼容IE6-7 --&gt; 
+            &lt;!--[if lt IE 8]&gt;
+	            &lt;link rel=&quot;stylesheet&quot; href=&quot;http://lomeye-icon.qiniudn.com/ie7.css&quot; /&gt;
+	            &lt;script src=&quot;http://lomeye-icon.qiniudn.com/ie7.js&quot;&gt;&lt;/script&gt;
+              &lt;![endif]--&gt;
+     </code></pre></p> 
+     <h3>方式 2 下载至本地</h3> 
+     <p> <a href="http://lomeye-icon.qiniudn.com/lomeye-icon.zip">下载压缩包</a>之后，将其解压缩到任意目录即可看到以下目录结构：<br /> </p> 
+     <p><pre><code>
+       lomeye-icon/
+            ├── lomeye-icon.css
+            ├── ie7/
+            │   ├── ie7.css
+            │   ├── ie7.js
+            └── fonts/
+                ├── lomeye-icon.eot
+                ├── lomeye-icon.svg
+                ├── lomeye-icon.ttf
+                └── lomeye-icon.woff
+     </code></pre></p> 
+     <p> 复制除demo以外的文件到你需要的地方，并引用到<code>&lt;head&gt;</code>中：<br /> </p> 
+     <p><pre><code>
+            &lt;!-- Lomeye Icon 核心 CSS 文件 --&gt;
+            &lt;link rel=&quot;stylesheet&quot; href=&quot;lomeye-icon/lomeye-icon.css&quot;&gt;
+            &lt;!-- Lomeye Icon 兼容IE6-7 --&gt; 
+            &lt;!--[if lt IE 8]&gt;
+	            &lt;link rel=&quot;stylesheet&quot; href=&quot;lomeye-icon/ie7/ie7.css&quot; /&gt;
+	            &lt;script src=&quot;lomeye-icon/ie7/ie7.js&quot;&gt;&lt;/script&gt;
+              &lt;![endif]--&gt;
+
+          </code></pre></p> 
+     <h3>方式 3 在<code>&lt;body&gt;</code>中引用</h3> 
+     <p> 如果你是在单独的BLOG文章或者别的地方（只要文章主体可以编辑html代码），不能修改<code>&lt;head&gt;</code>代码的时候，你可以直接在<code>&lt;body&gt;</code>中使用图标之前引用样式文件：<br /> </p> 
+     <p><pre><code>
+          &lt;body&gt;
+            ...
+            &lt;style type=&quot;text/css&quot;&gt;
+              @import url(&quot;../lomeye-icon/lomeye-icon.css&quot;); /*本地调用*/
+              @import url(&quot;http://lomeye-icon.qiniudn.com/lomeye-icon-cdn.css&quot;); /*或者从CDN调用，特别推荐，即使不能安装都可以使用*/
+            &lt;/style&gt;
+            ...
+          &lt;/body&gt;
+          </code></pre></p> 
+     <blockquote> 
+      <span class="text-info">特别提示：如果使用CDN调用地址，你甚至不用对现有页面进行任何修改就能使用Lomeye Icon的图标。</span> 
+     </blockquote> 
+    </div> 
+    <h1><strong>Step 2 : 使用</strong></h1> 
+    <hr /> 
+    <div id="use"> 
+     <p> 使用<code>&lt;span&gt;</code>标签调用CSS样式：<br /> </p> 
+     <p><pre><code>
+            &lt;span class=&quot;ico-lomeye&quot;&gt;&lt;/span&gt;
+          </code></pre></p> 显示结果： 
+     <a href="#" class="lomeye-ico-zoom"><span class="ico-lomeye"></span></a> Lomeye网站图标（鼠标划过放大效果） 
+    </div> 
+    <h1><strong>Step 3 : 调整</strong></h1> 
+    <hr /> 
+    <div id="adjust"> 
+     <p> 我们看到，上面的图标跟页面中<code>body</code>的文字尺寸是相同的，但是太小了，我们可以使用<code>.ico-lg</code> <code>.ico-xl</code> <code>.ico-2x</code> <code>.ico-3x</code> <code>.ico-4x</code>来控制图标的输出尺寸： </p> 
+     <p><pre><code>
+            &lt;span class=&quot;ico-lomeye ico-lg&quot;&gt;&lt;/span&gt;&lt;span&gt; L号图标&lt;/span&gt;
+            &lt;span class=&quot;ico-lomeye ico-xl&quot;&gt;&lt;/span&gt;&lt;span&gt; XL号图标&lt;/span&gt;
+            &lt;span class=&quot;ico-lomeye ico-2x&quot;&gt;&lt;/span&gt;&lt;span&gt; 2XL号图标&lt;/span&gt;
+            &lt;span class=&quot;ico-lomeye ico-3x&quot;&gt;&lt;/span&gt;&lt;span&gt; 3XL号图标&lt;/span&gt;
+            &lt;span class=&quot;ico-lomeye ico-4x&quot;&gt;&lt;/span&gt;&lt;span&gt; 4XL号图标&lt;/span&gt;
+          </code></pre></p> 
+      <p>显示结果：</p>
+      <p> 
+       <span class="ico-lomeye ico-lg"></span> 
+       <span> L号图标</span> 
+       <span class="ico-lomeye ico-xl"></span> 
+       <span> XL号图标</span> 
+       <span class="ico-lomeye ico-2x"></span> 
+       <span> 2XL号图标</span> 
+       <span class="ico-lomeye ico-3x"></span> 
+       <span> 3XL号图标</span> 
+       <span class="ico-lomeye ico-4x"></span> 
+       <span> 4XL号图标</span> 
+      </p>
+     <p> 但是<code>.ico-lg</code> <code>.ico-xl</code> <code>.ico-2x</code> <code>.ico-3x</code> <code>.ico-4x</code>不能用于图标的外层容器，否则后面的文字也会相应增加字号：<br /> </p> 
+     <p><pre><code>
+            &lt;div class=&quot;ico-2x&quot;&gt;&lt;span class=&quot;ico-lomeye&quot;&gt;&lt;/span&gt;&lt;span&gt; 2XL号图标&lt;/span&gt;&lt;/div&gt;
+          </code></pre></p> 
+     <p> 则会输出成 </p> 
+     <p class="ico-2x text-warning">
+       错误： 
+      <span class="ico-lomeye"></span> 
+      <span> 2XL号图标</span> 
+     </p> 
+     <p> 不过你可以使用<code>.ico-lg-in</code> <code>.ico-xl-in</code> <code>.ico-2x-in</code> <code>.ico-3x-in</code> <code>.ico-4x-in</code>来代替它：<br /> </p> 
+     <p><pre><code>
+            &lt;div class=&quot;ico-2x-in&quot;&gt;&lt;span class=&quot;ico-lomeye&quot;&gt;&lt;/span&gt;&lt;span&gt; 2XL号图标&lt;/span&gt;&lt;/div&gt;</code>
+          </pre> 
+     <p class="ico-2x-in text-success">
+       正确： 
+      <span class="ico-lomeye"></span> 
+      <span> 2XL号图标</span> 
+     </p>
+      <hr />
+      <blockquote class="text-info">
+      <p>关于小号图标：</p> 
+      <p>因为图标的尺寸是基于父级容器所设定的font-size属性，不同大小的图标都是用em为单位做的增倍，要获得小号图标，你只需要在图标外层添加&lt;small&gt;...&lt;/small&gt;标签就可以了。当然，它也能支持所有的html文本格式标签。</p> 
+     </blockquote>
+    </div>
+    </div> 
+   </div> 
+  <div id="Icon-show-title" class="jumbotron"> 
+   <div class="container text-center"> 
+    <h1><strong>图标列举</strong></h1> 
+    <p>下面列举了所有的图标，和引用时需要用的代码，复制并填入标签类，如&lt;span class=&quot;ico-lomeye&quot;&gt;&lt;/span&gt;即可。</p> 
+   </div> 
+  </div> 
+  <div class="Icon-show"> 
+   <div class="container"> 
+    <div class="Icon-title"> 
+     <h2 id="SNS">Lomeye SNS Icon </h2> 
+     <p>12套中文社交网站图标，每套3款，共36个图标。</p> 
+    </div> 
+    <div class="ico-xl-in"> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>Lomeye</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-lomeye-1"></span> 
+       <span>ico-lomeye-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-lomeye-2"></span> 
+       <span> ico-lomeye-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-lomeye"></span> 
+       <span> ico-lomeye</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>米聊</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-mi-1"></span> 
+       <span> ico-mi-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-mi-2"></span> 
+       <span> ico-mi-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-mi"></span> 
+       <span> ico-mi</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>开心</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-kx-1"></span> 
+       <span> ico-kx-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-kx-2"></span> 
+       <span> ico-kx-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-kx"></span> 
+       <span> ico-kx</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>Q-Zone</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-qz-1"></span> 
+       <span> ico-qz-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-qz-2"></span> 
+       <span> ico-qz-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-qz"></span> 
+       <span> ico-qz</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>人人</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-rr-1"></span> 
+       <span> ico-rr-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-rr-2"></span> 
+       <span> ico-rr-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-rr"></span> 
+       <span> ico-rr</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>豆瓣</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-dou-1"></span> 
+       <span> ico-dou-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-dou-2"></span> 
+       <span> ico-dou-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-dou"></span> 
+       <span> ico-dou</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>朋友圈</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-fr-1"></span> 
+       <span> ico-fr-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-fr-2"></span> 
+       <span> ico-fr-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-fr"></span> 
+       <span> ico-fr</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>百度</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-bd-1"></span> 
+       <span> ico-bd-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-bd-2"></span> 
+       <span> ico-bd-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-bd"></span> 
+       <span> ico-bd</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>微信</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-wx-1"></span> 
+       <span> ico-wx-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-wx-2"></span> 
+       <span> ico-wx-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-wx"></span> 
+       <span> ico-wx</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>QQ</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-qq-1"></span> 
+       <span> ico-qq-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-qq-2"></span> 
+       <span> ico-qq-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-qq"></span> 
+       <span> ico-qq</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>腾讯微博</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-ten-1"></span> 
+       <span> ico-ten-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-ten-2"></span> 
+       <span> ico-ten-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-ten"></span> 
+       <span> ico-ten</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>新浪微博</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-wb-1"></span> 
+       <span> ico-wb-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-wb-2"></span> 
+       <span> ico-wb-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-wb"></span> 
+       <span> ico-wb</span> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-sm-3 col-xs-12"> 
+       <h3>淘宝</h3> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-tao-1"></span> 
+       <span> ico-tao-1</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-tao-2"></span> 
+       <span> ico-tao-2</span> 
+      </div> 
+      <div class="col-sm-3 col-xs-4"> 
+       <span class="ico-tao"></span> 
+       <span> ico-tao</span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="Icon-title"> 
+     <h2 id="Extend">Lomeye Extend Icon </h2> 
+     <p>LOMEYE 原创扩展图标，以补充不足。</p> 
+    </div> 
+    <div class="row ico-lg-in">
+     <div class="col-xs-3"> 
+      <span class="ico-surface"></span> 
+      <span>ico-surface</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-onedrive"></span> 
+      <span>ico-onedrive</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bing"></span> 
+      <span>ico-bing</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-office2"></span> 
+      <span>ico-office2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-word"></span> 
+      <span>ico-word</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-powerpoint"></span> 
+      <span>ico-powerpoint</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-excel"></span> 
+      <span> ico-excel</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-outlook"></span> 
+      <span> ico-outlook</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-onenote"></span> 
+      <span> ico-onenote</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-access"></span> 
+      <span> ico-access</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-visio"></span> 
+      <span>ico-visio</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lync"></span> 
+      <span> ico-lync</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-publisher"></span> 
+      <span>ico-publisher</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-project"></span> 
+      <span> ico-project</span> 
+     </div>
+    </div>
+    <div class="row ico-lg-in">
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up4"></span> 
+      <span> ico-arrow-up4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down4"></span> 
+      <span> ico-arrow-down4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-left4"></span> 
+      <span> ico-arrow-left4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-right4"></span> 
+      <span> ico-arrow-right4</span> 
+     </div> 
+    </div>
+    <div class="Icon-title"> 
+     <h2 id="IcoMoon">IcoMoon Free Icon </h2> 
+     <p>由 <a href="http://icomoon.io/#Icon">IcoMoon</a> 提供的450个免费图标。</p> 
+     <p><small> Designer:<a href="http://keyamoon.com/">keyamoon</a> | License:<a href="http://icomoon.io/#Icon">GPL / CC BY 3.0</a> </small></p> 
+    </div> 
+    <div class="row ico-lg-in"> 
+     <div class="col-xs-3"> 
+      <span class="ico-home"></span> 
+      <span> ico-home</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-home2"></span> 
+      <span> ico-home2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-home3"></span> 
+      <span> ico-home3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-office"></span> 
+      <span> ico-office</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-newspaper"></span> 
+      <span> ico-newspaper</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pencil"></span> 
+      <span> ico-pencil</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pencil2"></span> 
+      <span> ico-pencil2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-quill"></span> 
+      <span> ico-quill</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pen"></span> 
+      <span> ico-pen</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-blog"></span> 
+      <span> ico-blog</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-droplet"></span> 
+      <span> ico-droplet</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paint-format"></span> 
+      <span> ico-paint-format</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-image"></span> 
+      <span> ico-image</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-image2"></span> 
+      <span> ico-image2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-images"></span> 
+      <span> ico-images</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-camera"></span> 
+      <span> ico-camera</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-music"></span> 
+      <span> ico-music</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-headphones"></span> 
+      <span> ico-headphones</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-play"></span> 
+      <span> ico-play</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-film"></span> 
+      <span> ico-film</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-camera2"></span> 
+      <span> ico-camera2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-dice"></span> 
+      <span> ico-dice</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pacman"></span> 
+      <span> ico-pacman</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spades"></span> 
+      <span> ico-spades</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-clubs"></span> 
+      <span> ico-clubs</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-diamonds"></span> 
+      <span> ico-diamonds</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pawn"></span> 
+      <span> ico-pawn</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bullhorn"></span> 
+      <span> ico-bullhorn</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-connection"></span> 
+      <span> ico-connection</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-podcast"></span> 
+      <span> ico-podcast</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-feed"></span> 
+      <span> ico-feed</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-book"></span> 
+      <span> ico-book</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-books"></span> 
+      <span> ico-books</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-library"></span> 
+      <span> ico-library</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file"></span> 
+      <span> ico-file</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-profile"></span> 
+      <span> ico-profile</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file2"></span> 
+      <span> ico-file2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file3"></span> 
+      <span> ico-file3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file4"></span> 
+      <span> ico-file4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-copy"></span> 
+      <span> ico-copy</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-copy2"></span> 
+      <span> ico-copy2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-copy3"></span> 
+      <span> ico-copy3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paste"></span> 
+      <span> ico-paste</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paste2"></span> 
+      <span> ico-paste2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paste3"></span> 
+      <span> ico-paste3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stack"></span> 
+      <span> ico-stack</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-folder"></span> 
+      <span> ico-folder</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-folder-open"></span> 
+      <span> ico-folder-open</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tag"></span> 
+      <span> ico-tag</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tags"></span> 
+      <span> ico-tags</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-barcode"></span> 
+      <span> ico-barcode</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-qrcode"></span> 
+      <span> ico-qrcode</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-ticket"></span> 
+      <span> ico-ticket</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cart"></span> 
+      <span> ico-cart</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cart2"></span> 
+      <span> ico-cart2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cart3"></span> 
+      <span> ico-cart3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-coin"></span> 
+      <span> ico-coin</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-credit"></span> 
+      <span> ico-credit</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-calculate"></span> 
+      <span> ico-calculate</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-support"></span> 
+      <span> ico-support</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-phone"></span> 
+      <span> ico-phone</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-phone-hang-up"></span> 
+      <span> ico-phone-hang-up</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-address-book"></span> 
+      <span> ico-address-book</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-notebook"></span> 
+      <span> ico-notebook</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-envelope"></span> 
+      <span> ico-envelope</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pushpin"></span> 
+      <span> ico-pushpin</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-location"></span> 
+      <span> ico-location</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-location2"></span> 
+      <span> ico-location2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-compass"></span> 
+      <span> ico-compass</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-map"></span> 
+      <span> ico-map</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-map2"></span> 
+      <span> ico-map2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-history"></span> 
+      <span> ico-history</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-clock"></span> 
+      <span> ico-clock</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-clock2"></span> 
+      <span> ico-clock2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-alarm"></span> 
+      <span> ico-alarm</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-alarm2"></span> 
+      <span> ico-alarm2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bell"></span> 
+      <span> ico-bell</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stopwatch"></span> 
+      <span> ico-stopwatch</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-calendar"></span> 
+      <span> ico-calendar</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-calendar2"></span> 
+      <span> ico-calendar2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-print"></span> 
+      <span> ico-print</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-keyboard"></span> 
+      <span> ico-keyboard</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-screen"></span> 
+      <span> ico-screen</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-laptop"></span> 
+      <span> ico-laptop</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mobile"></span> 
+      <span> ico-mobile</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mobile2"></span> 
+      <span> ico-mobile2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tablet"></span> 
+      <span> ico-tablet</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tv"></span> 
+      <span> ico-tv</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cabinet"></span> 
+      <span> ico-cabinet</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-drawer"></span> 
+      <span> ico-drawer</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-drawer2"></span> 
+      <span> ico-drawer2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-drawer3"></span> 
+      <span> ico-drawer3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-box-add"></span> 
+      <span> ico-box-add</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-box-remove"></span> 
+      <span> ico-box-remove</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-download"></span> 
+      <span> ico-download</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-upload"></span> 
+      <span> ico-upload</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-disk"></span> 
+      <span> ico-disk</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-storage"></span> 
+      <span> ico-storage</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-undo"></span> 
+      <span> ico-undo</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-redo"></span> 
+      <span> ico-redo</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flip"></span> 
+      <span> ico-flip</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flip2"></span> 
+      <span> ico-flip2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-undo2"></span> 
+      <span> ico-undo2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-redo2"></span> 
+      <span> ico-redo2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-forward"></span> 
+      <span> ico-forward</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-reply"></span> 
+      <span> ico-reply</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bubble"></span> 
+      <span> ico-bubble</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bubbles"></span> 
+      <span> ico-bubbles</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bubbles2"></span> 
+      <span> ico-bubbles2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bubble2"></span> 
+      <span> ico-bubble2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bubbles3"></span> 
+      <span> ico-bubbles3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bubbles4"></span> 
+      <span> ico-bubbles4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-user"></span> 
+      <span> ico-user</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-users"></span> 
+      <span> ico-users</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-user2"></span> 
+      <span> ico-user2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-users2"></span> 
+      <span> ico-users2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-user3"></span> 
+      <span> ico-user3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-user4"></span> 
+      <span> ico-user4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-quotes-left"></span> 
+      <span> ico-quotes-left</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-busy"></span> 
+      <span> ico-busy</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spinner"></span> 
+      <span> ico-spinner</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spinner2"></span> 
+      <span> ico-spinner2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spinner3"></span> 
+      <span> ico-spinner3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spinner4"></span> 
+      <span> ico-spinner4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spinner5"></span> 
+      <span> ico-spinner5</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spinner6"></span> 
+      <span> ico-spinner6</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-binoculars"></span> 
+      <span> ico-binoculars</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-search"></span> 
+      <span> ico-search</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-zoomin"></span> 
+      <span> ico-zoomin</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-zoomout"></span> 
+      <span> ico-zoomout</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-expand"></span> 
+      <span> ico-expand</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-contract"></span> 
+      <span> ico-contract</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-expand2"></span> 
+      <span> ico-expand2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-contract2"></span> 
+      <span> ico-contract2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-key"></span> 
+      <span> ico-key</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-key2"></span> 
+      <span> ico-key2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lock"></span> 
+      <span> ico-lock</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lock2"></span> 
+      <span> ico-lock2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-unlocked"></span> 
+      <span> ico-unlocked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wrench"></span> 
+      <span> ico-wrench</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-settings"></span> 
+      <span> ico-settings</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-equalizer"></span> 
+      <span> ico-equalizer</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cog"></span> 
+      <span> ico-cog</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cogs"></span> 
+      <span> ico-cogs</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cog2"></span> 
+      <span> ico-cog2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-hammer"></span> 
+      <span> ico-hammer</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wand"></span> 
+      <span> ico-wand</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-aid"></span> 
+      <span> ico-aid</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bug"></span> 
+      <span> ico-bug</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pie"></span> 
+      <span> ico-pie</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stats"></span> 
+      <span> ico-stats</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bars"></span> 
+      <span> ico-bars</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bars2"></span> 
+      <span> ico-bars2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-gift"></span> 
+      <span> ico-gift</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-trophy"></span> 
+      <span> ico-trophy</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-glass"></span> 
+      <span> ico-glass</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mug"></span> 
+      <span> ico-mug</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-food"></span> 
+      <span> ico-food</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-leaf"></span> 
+      <span> ico-leaf</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-rocket"></span> 
+      <span> ico-rocket</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-meter"></span> 
+      <span> ico-meter</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-meter2"></span> 
+      <span> ico-meter2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-dashboard"></span> 
+      <span> ico-dashboard</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-hammer2"></span> 
+      <span> ico-hammer2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-fire"></span> 
+      <span> ico-fire</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lab"></span> 
+      <span> ico-lab</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-magnet"></span> 
+      <span> ico-magnet</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-remove"></span> 
+      <span> ico-remove</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-remove2"></span> 
+      <span> ico-remove2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-briefcase"></span> 
+      <span> ico-briefcase</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-airplane"></span> 
+      <span> ico-airplane</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-truck"></span> 
+      <span> ico-truck</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-road"></span> 
+      <span> ico-road</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-accessibility"></span> 
+      <span> ico-accessibility</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-target"></span> 
+      <span> ico-target</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-shield"></span> 
+      <span> ico-shield</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lightning"></span> 
+      <span> ico-lightning</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-switch"></span> 
+      <span> ico-switch</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-powercord"></span> 
+      <span> ico-powercord</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-signup"></span> 
+      <span> ico-signup</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-list"></span> 
+      <span> ico-list</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-list2"></span> 
+      <span> ico-list2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-numbered-list"></span> 
+      <span> ico-numbered-list</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-menu"></span> 
+      <span> ico-menu</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-menu2"></span> 
+      <span> ico-menu2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tree"></span> 
+      <span> ico-tree</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cloud"></span> 
+      <span> ico-cloud</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cloud-download"></span> 
+      <span> ico-cloud-download</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cloud-upload"></span> 
+      <span> ico-cloud-upload</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-download2"></span> 
+      <span> ico-download2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-upload2"></span> 
+      <span> ico-upload2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-download3"></span> 
+      <span> ico-download3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-upload3"></span> 
+      <span> ico-upload3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-globe"></span> 
+      <span> ico-globe</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-earth"></span> 
+      <span> ico-earth</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-link"></span> 
+      <span> ico-link</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flag"></span> 
+      <span> ico-flag</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-attachment"></span> 
+      <span> ico-attachment</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-eye"></span> 
+      <span> ico-eye</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-eye-blocked"></span> 
+      <span> ico-eye-blocked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-eye2"></span> 
+      <span> ico-eye2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bookmark"></span> 
+      <span> ico-bookmark</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bookmarks"></span> 
+      <span> ico-bookmarks</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-brightness-medium"></span> 
+      <span> ico-brightness-medium</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-brightness-contrast"></span> 
+      <span> ico-brightness-contrast</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-contrast"></span> 
+      <span> ico-contrast</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-star"></span> 
+      <span> ico-star</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-star2"></span> 
+      <span> ico-star2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-star3"></span> 
+      <span> ico-star3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-heart"></span> 
+      <span> ico-heart</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-heart2"></span> 
+      <span> ico-heart2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-heart-broken"></span> 
+      <span> ico-heart-broken</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-thumbs-up"></span> 
+      <span> ico-thumbs-up</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-thumbs-up2"></span> 
+      <span> ico-thumbs-up2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-happy"></span> 
+      <span> ico-happy</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-happy2"></span> 
+      <span> ico-happy2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-smiley"></span> 
+      <span> ico-smiley</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-smiley2"></span> 
+      <span> ico-smiley2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tongue"></span> 
+      <span> ico-tongue</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tongue2"></span> 
+      <span> ico-tongue2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-sad"></span> 
+      <span> ico-sad</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-sad2"></span> 
+      <span> ico-sad2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wink"></span> 
+      <span> ico-wink</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wink2"></span> 
+      <span> ico-wink2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-grin"></span> 
+      <span> ico-grin</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-grin2"></span> 
+      <span> ico-grin2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cool"></span> 
+      <span> ico-cool</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cool2"></span> 
+      <span> ico-cool2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-angry"></span> 
+      <span> ico-angry</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-angry2"></span> 
+      <span> ico-angry2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-evil"></span> 
+      <span> ico-evil</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-evil2"></span> 
+      <span> ico-evil2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-shocked"></span> 
+      <span> ico-shocked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-shocked2"></span> 
+      <span> ico-shocked2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-confused"></span> 
+      <span> ico-confused</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-confused2"></span> 
+      <span> ico-confused2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-neutral"></span> 
+      <span> ico-neutral</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-neutral2"></span> 
+      <span> ico-neutral2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wondering"></span> 
+      <span> ico-wondering</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wondering2"></span> 
+      <span> ico-wondering2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-point-up"></span> 
+      <span> ico-point-up</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-point-right"></span> 
+      <span> ico-point-right</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-point-down"></span> 
+      <span> ico-point-down</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-point-left"></span> 
+      <span> ico-point-left</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-warning"></span> 
+      <span> ico-warning</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-notification"></span> 
+      <span> ico-notification</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-question"></span> 
+      <span> ico-question</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-info"></span> 
+      <span> ico-info</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-info2"></span> 
+      <span> ico-info2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-blocked"></span> 
+      <span> ico-blocked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-cancel-circle"></span> 
+      <span> ico-cancel-circle</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-checkmark-circle"></span> 
+      <span> ico-checkmark-circle</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spam"></span> 
+      <span> ico-spam</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-close"></span> 
+      <span> ico-close</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-checkmark"></span> 
+      <span> ico-checkmark</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-checkmark2"></span> 
+      <span> ico-checkmark2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-spell-check"></span> 
+      <span> ico-spell-check</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-minus"></span> 
+      <span> ico-minus</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-plus"></span> 
+      <span> ico-plus</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-enter"></span> 
+      <span> ico-enter</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-exit"></span> 
+      <span> ico-exit</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-play2"></span> 
+      <span> ico-play2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pause"></span> 
+      <span> ico-pause</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stop"></span> 
+      <span> ico-stop</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-backward"></span> 
+      <span> ico-backward</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-forward2"></span> 
+      <span> ico-forward2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-play3"></span> 
+      <span> ico-play3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pause2"></span> 
+      <span> ico-pause2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stop2"></span> 
+      <span> ico-stop2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-backward2"></span> 
+      <span> ico-backward2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-forward3"></span> 
+      <span> ico-forward3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-first"></span> 
+      <span> ico-first</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-last"></span> 
+      <span> ico-last</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-previous"></span> 
+      <span> ico-previous</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-next"></span> 
+      <span> ico-next</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-eject"></span> 
+      <span> ico-eject</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-high"></span> 
+      <span> ico-volume-high</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-medium"></span> 
+      <span> ico-volume-medium</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-low"></span> 
+      <span> ico-volume-low</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-mute"></span> 
+      <span> ico-volume-mute</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-mute2"></span> 
+      <span> ico-volume-mute2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-increase"></span> 
+      <span> ico-volume-increase</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-volume-decrease"></span> 
+      <span> ico-volume-decrease</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-loop"></span> 
+      <span> ico-loop</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-loop2"></span> 
+      <span> ico-loop2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-loop3"></span> 
+      <span> ico-loop3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-shuffle"></span> 
+      <span> ico-shuffle</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up-left"></span> 
+      <span> ico-arrow-up-left</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up"></span> 
+      <span> ico-arrow-up</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up-right"></span> 
+      <span> ico-arrow-up-right</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-right"></span> 
+      <span> ico-arrow-right</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down-right"></span> 
+      <span> ico-arrow-down-right</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down"></span> 
+      <span> ico-arrow-down</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down-left"></span> 
+      <span> ico-arrow-down-left</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-left"></span> 
+      <span> ico-arrow-left</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up-left2"></span> 
+      <span> ico-arrow-up-left2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up2"></span> 
+      <span> ico-arrow-up2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up-right2"></span> 
+      <span> ico-arrow-up-right2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-right2"></span> 
+      <span> ico-arrow-right2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down-right2"></span> 
+      <span> ico-arrow-down-right2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down2"></span> 
+      <span> ico-arrow-down2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down-left2"></span> 
+      <span> ico-arrow-down-left2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-left2"></span> 
+      <span> ico-arrow-left2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up-left3"></span> 
+      <span> ico-arrow-up-left3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up3"></span> 
+      <span> ico-arrow-up3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-up-right3"></span> 
+      <span> ico-arrow-up-right3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-right3"></span> 
+      <span> ico-arrow-right3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down-right3"></span> 
+      <span> ico-arrow-down-right3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down3"></span> 
+      <span> ico-arrow-down3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-down-left3"></span> 
+      <span> ico-arrow-down-left3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-arrow-left3"></span> 
+      <span> ico-arrow-left3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tab"></span> 
+      <span> ico-tab</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-checkbox-checked"></span> 
+      <span> ico-checkbox-checked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-checkbox-unchecked"></span> 
+      <span> ico-checkbox-unchecked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-checkbox-partial"></span> 
+      <span> ico-checkbox-partial</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-radio-checked"></span> 
+      <span> ico-radio-checked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-radio-unchecked"></span> 
+      <span> ico-radio-unchecked</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-crop"></span> 
+      <span> ico-crop</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-scissors"></span> 
+      <span> ico-scissors</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-filter"></span> 
+      <span> ico-filter</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-filter2"></span> 
+      <span> ico-filter2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-font"></span> 
+      <span> ico-font</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-text-height"></span> 
+      <span> ico-text-height</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-text-width"></span> 
+      <span> ico-text-width</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-bold"></span> 
+      <span> ico-bold</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-underline"></span> 
+      <span> ico-underline</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-italic"></span> 
+      <span> ico-italic</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-strikethrough"></span> 
+      <span> ico-strikethrough</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-omega"></span> 
+      <span> ico-omega</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-sigma"></span> 
+      <span> ico-sigma</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-table"></span> 
+      <span> ico-table</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-table2"></span> 
+      <span> ico-table2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-insert-template"></span> 
+      <span> ico-insert-template</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pilcrow"></span> 
+      <span> ico-pilcrow</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lefttoright"></span> 
+      <span> ico-lefttoright</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-righttoleft"></span> 
+      <span> ico-righttoleft</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-left"></span> 
+      <span> ico-paragraph-left</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-center"></span> 
+      <span> ico-paragraph-center</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-right"></span> 
+      <span> ico-paragraph-right</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-justify"></span> 
+      <span> ico-paragraph-justify</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-left2"></span> 
+      <span> ico-paragraph-left2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-center2"></span> 
+      <span> ico-paragraph-center2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-right2"></span> 
+      <span> ico-paragraph-right2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paragraph-justify2"></span> 
+      <span> ico-paragraph-justify2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-indent-increase"></span> 
+      <span> ico-indent-increase</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-indent-decrease"></span> 
+      <span> ico-indent-decrease</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-newtab"></span> 
+      <span> ico-newtab</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-embed"></span> 
+      <span> ico-embed</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-code"></span> 
+      <span> ico-code</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-console"></span> 
+      <span> ico-console</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-share"></span> 
+      <span> ico-share</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mail"></span> 
+      <span> ico-mail</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mail2"></span> 
+      <span> ico-mail2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mail3"></span> 
+      <span> ico-mail3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-mail4"></span> 
+      <span> ico-mail4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-google"></span> 
+      <span> ico-google</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-googleplus"></span> 
+      <span> ico-googleplus</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-googleplus2"></span> 
+      <span> ico-googleplus2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-googleplus3"></span> 
+      <span> ico-googleplus3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-googleplus4"></span> 
+      <span> ico-googleplus4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-google-drive"></span> 
+      <span> ico-google-drive</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-facebook"></span> 
+      <span> ico-facebook</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-facebook2"></span> 
+      <span> ico-facebook2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-facebook3"></span> 
+      <span> ico-facebook3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-instagram"></span> 
+      <span> ico-instagram</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-twitter"></span> 
+      <span> ico-twitter</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-twitter2"></span> 
+      <span> ico-twitter2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-twitter3"></span> 
+      <span> ico-twitter3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-feed2"></span> 
+      <span> ico-feed2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-feed3"></span> 
+      <span> ico-feed3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-feed4"></span> 
+      <span> ico-feed4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-youtube"></span> 
+      <span> ico-youtube</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-youtube2"></span> 
+      <span> ico-youtube2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-vimeo"></span> 
+      <span> ico-vimeo</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-vimeo2"></span> 
+      <span> ico-vimeo2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-vimeo3"></span> 
+      <span> ico-vimeo3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lanyrd"></span> 
+      <span> ico-lanyrd</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flickr"></span> 
+      <span> ico-flickr</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flickr2"></span> 
+      <span> ico-flickr2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flickr3"></span> 
+      <span> ico-flickr3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flickr4"></span> 
+      <span> ico-flickr4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-picassa"></span> 
+      <span> ico-picassa</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-picassa2"></span> 
+      <span> ico-picassa2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-dribbble"></span> 
+      <span> ico-dribbble</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-dribbble2"></span> 
+      <span> ico-dribbble2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-dribbble3"></span> 
+      <span> ico-dribbble3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-forrst"></span> 
+      <span> ico-forrst</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-forrst2"></span> 
+      <span> ico-forrst2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-deviantart"></span> 
+      <span> ico-deviantart</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-deviantart2"></span> 
+      <span> ico-deviantart2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-steam"></span> 
+      <span> ico-steam</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-steam2"></span> 
+      <span> ico-steam2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-github"></span> 
+      <span> ico-github</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-github2"></span> 
+      <span> ico-github2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-github3"></span> 
+      <span> ico-github3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-github4"></span> 
+      <span> ico-github4</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-github5"></span> 
+      <span> ico-github5</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wordpress"></span> 
+      <span> ico-wordpress</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-wordpress2"></span> 
+      <span> ico-wordpress2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-joomla"></span> 
+      <span> ico-joomla</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-blogger"></span> 
+      <span> ico-blogger</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-blogger2"></span> 
+      <span> ico-blogger2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tumblr"></span> 
+      <span> ico-tumblr</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tumblr2"></span> 
+      <span> ico-tumblr2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-yahoo"></span> 
+      <span> ico-yahoo</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-tux"></span> 
+      <span> ico-tux</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-apple"></span> 
+      <span> ico-apple</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-finder"></span> 
+      <span> ico-finder</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-android"></span> 
+      <span> ico-android</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-windows"></span> 
+      <span> ico-windows</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-windows8"></span> 
+      <span> ico-windows8</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-soundcloud"></span> 
+      <span> ico-soundcloud</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-soundcloud2"></span> 
+      <span> ico-soundcloud2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-skype"></span> 
+      <span> ico-skype</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-reddit"></span> 
+      <span> ico-reddit</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-linkedin"></span> 
+      <span> ico-linkedin</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lastfm"></span> 
+      <span> ico-lastfm</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-lastfm2"></span> 
+      <span> ico-lastfm2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-delicious"></span> 
+      <span> ico-delicious</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stumbleupon"></span> 
+      <span> ico-stumbleupon</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stumbleupon2"></span> 
+      <span> ico-stumbleupon2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-stackoverflow"></span> 
+      <span> ico-stackoverflow</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pinterest"></span> 
+      <span> ico-pinterest</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-pinterest2"></span> 
+      <span> ico-pinterest2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-xing"></span> 
+      <span> ico-xing</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-xing2"></span> 
+      <span> ico-xing2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-flattr"></span> 
+      <span> ico-flattr</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-foursquare"></span> 
+      <span> ico-foursquare</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-foursquare2"></span> 
+      <span> ico-foursquare2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paypal"></span> 
+      <span> ico-paypal</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paypal2"></span> 
+      <span> ico-paypal2</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-paypal3"></span> 
+      <span> ico-paypal3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-yelp"></span> 
+      <span> ico-yelp</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-libreoffice"></span> 
+      <span> ico-libreoffice</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-pdf"></span> 
+      <span> ico-file-pdf</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-openoffice"></span> 
+      <span> ico-file-openoffice</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-word"></span> 
+      <span> ico-file-word</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-excel"></span> 
+      <span> ico-file-excel</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-zip"></span> 
+      <span> ico-file-zip</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-powerpoint"></span> 
+      <span> ico-file-powerpoint</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-xml"></span> 
+      <span> ico-file-xml</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-file-css"></span> 
+      <span> ico-file-css</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-html5"></span> 
+      <span> ico-html5</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-html52"></span> 
+      <span> ico-html52</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-css3"></span> 
+      <span> ico-css3</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-chrome"></span> 
+      <span> ico-chrome</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-firefox"></span> 
+      <span> ico-firefox</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-IE"></span> 
+      <span> ico-IE</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-opera"></span> 
+      <span> ico-opera</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-safari"></span> 
+      <span> ico-safari</span> 
+     </div> 
+     <div class="col-xs-3"> 
+      <span class="ico-IcoMoon"></span> 
+      <span> ico-IcoMoon</span> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="thanks" class="jumbotron"> 
+   <div class="container text-center"> 
+    <h1><strong>感谢！</strong></h1> 
+    <ul class="list-unstyled list-inline"> 
+     <li><a class="btn btn-success" href="http://icomoon.io/">图标制作APP提供：Icomoon</a></li> 
+     <li><a class="btn btn-success" href="https://portal.qiniu.com/signup?code=3lh7gto087s5u">CDN提供：七牛云存储</a></li> 
+     <li><a class="btn btn-success" href="http://v3.bootcss.com/">页面主题：Bootstrap 中文网</a></li> 
+    </ul> 
+   </div> 
+   <hr /> 
+  </div> 
+  <div class="footer"> 
+   <div class="container"> 
+    <p>Code licensed under <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GPL</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. | 在使用中如有问题或建议可以联络我的QQ <span class="ico-qq"></span> 88138519</p> 
+    <p>Copyright &copy; 2013 - 2014 LOMEYE</p> 
+   </div> 
+  </div> 
+  <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script> 
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+   <span class="baidu">
+     <script type="text/javascript">
+       var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+       document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc25bc400adc60433031aeaf0d958336f' type='text/javascript'%3E%3C/script%3E"));
+     </script>
+   </span>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"slide":{"type":"slide","bdImg":"1","bdPos":"left","bdTop":"100"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+ </body>
+</html>
